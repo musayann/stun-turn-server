@@ -1,0 +1,11 @@
+{
+  "name": "stun-turn-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server"
+  },
+  "dependencies": {
+    "node-turn": "0.0.6"
+  }
+}
