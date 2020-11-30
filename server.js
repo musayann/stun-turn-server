@@ -4,6 +4,7 @@ var server = new Turn({
   authMech: 'long-term',
   credentials: {
     komoto: "stolen"
-  }
+  },
+  listeningPort: 80,
 });
 server.start();
